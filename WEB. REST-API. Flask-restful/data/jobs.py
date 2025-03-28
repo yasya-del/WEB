@@ -6,6 +6,8 @@ from .db_session import SqlAlchemyBase
 from sqlalchemy import orm
 
 
+
+
 class Jobs(SqlAlchemyBase):
     __tablename__ = 'jobs'
 

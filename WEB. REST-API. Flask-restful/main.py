@@ -2,6 +2,7 @@ from data import db_session, users_resource
 from flask import Flask, render_template, redirect
 from flask_restful import reqparse, abort, Api, Resource
 
+
 app = Flask(__name__)
 api = Api(app)
 api.add_resource(users_resource.UsersListResource, '/api/v2/users')

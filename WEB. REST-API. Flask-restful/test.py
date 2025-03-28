@@ -12,3 +12,4 @@ print(post('http://localhost:5000/api/v2/users',
                  'email': '1580@ya.ru',
                  'hashed_password': 'vsem2'
                  }).json())
+

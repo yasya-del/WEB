@@ -8,6 +8,7 @@ from sqlalchemy_serializer import SerializerMixin
 
 
 
+
 class User(SqlAlchemyBase, SerializerMixin):
     __tablename__ = 'users'
 
