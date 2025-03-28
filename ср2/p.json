@@ -1,0 +1,21 @@
+{
+  "tree": [
+    {
+      "name": "ombu",
+      "color": "dark green",
+      "shadow": 150
+    }
+  ],
+  "grass": [
+    {
+      "name": "laconose",
+      "color": "dark beige",
+      "shadow": 2
+    },
+    {
+      "name": "fescue",
+      "color": "dark golden",
+      "shadow": 2
+    }
+  ]
+}
