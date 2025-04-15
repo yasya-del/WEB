@@ -59,3 +59,5 @@ def abort_if_news_not_found(news_id):
         news = session.query(User).get(news_id)
         if not news:
             abort(404, message=f"User {news_id} not found")
+    else:
+        abort(404, message=f"Uncorrect id")
